@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-enter-active { transition: opacity 1s     }
+.fade-leave-active { transition: opacity 0.75s; } 
+.fade-enter, .fade-leave-to { opacity: 0;       }
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+
+
+/* we will explain what these classes do next! */
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+
+
+input, input:focus, input:disabled, input:disabled:focus {
+    border: none;
+    outline: none;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    position: relative;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+input:disabled {
+    background: inherit;
+}
+
+iframe {
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    outline: none;
+}
+
+
+.twocol {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.twocol > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pre {
+    whitespace: 'pre'
+}
+
+.app {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+  
+  
+
+.jsxgraph {
+    width: 200px;
+    height: 200px;
+}
+
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-icon {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-bottom: -2px; /* yes, I'm that particular about formatting */
+}
+
+
+
+
+/* bootstrap */
+
+ .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #333;
+  text-decoration: none;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.standard-table {
+    
+}
+.standard-table > * {
+    display: flex;
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+    background: red;
+}
